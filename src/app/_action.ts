@@ -20,7 +20,7 @@ export async function addEntry(data: Inputs) {
 }
 
 type ContactFormInputs = z.infer<typeof ContactFormSchema>
-const resend = new Resend(process.env.RESEND_API_KEY)
+const resend = new Resend(process.env.re_5MtXruHK_MttBT5qUbp4JkVD2k9S4224h)
 
 export async function sendEmail(data: ContactFormInputs) {
     const result = ContactFormSchema.safeParse(data)
