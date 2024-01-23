@@ -6,7 +6,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 
 import { ContactFormSchema } from "@/lib/schema";
-import { sendEmail } from "@/app/_action";
+import { sendEmail } from "@/app/functions/_action";
 import { toast } from "sonner";
 
 export type ContactFormInputs = z.infer<typeof ContactFormSchema>;

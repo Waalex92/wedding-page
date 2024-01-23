@@ -6,7 +6,7 @@ import { useForm, SubmitHandler } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 
-import { addEntry } from "@/app/_action";
+import { addEntry } from "@/app/functions/_action";
 import { FormDataSchema } from "@/lib/schema";
 
 type Inputs = z.infer<typeof FormDataSchema>;
