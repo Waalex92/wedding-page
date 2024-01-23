@@ -96,7 +96,7 @@ function TimeLine() {
 					</div>
 					<div className="">
 						<p className="text-sm font-bold text-blue-900">
-							2 : 00 p.m.
+							2 : 00 a.m.
 						</p>
 						<p className="text-sm font-bold text-blue-900">
 							Felices por siempre
