@@ -31,7 +31,7 @@ function Attendance() {
 				¡Te esperamos!
 			</h3>
 			<Image
-				src={"/assets/Frame 2.jpg"}
+				src={"/assets/frame2.jpg"}
 				alt={"Frame 1"}
 				width={1200}
 				height={1200}

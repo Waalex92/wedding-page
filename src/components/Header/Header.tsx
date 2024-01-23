@@ -5,7 +5,7 @@ export function Header() {
 	return (
 		<div className="container flex flex-col items-center mx-auto px-5 mb-10">
 			<Image
-				src={"/assets/Frame 1.jpg"}
+				src={"/assets/frame1.jpg"}
 				alt={"Frame 1"}
 				width={1200}
 				height={1200}
