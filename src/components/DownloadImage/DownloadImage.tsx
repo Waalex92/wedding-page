@@ -13,9 +13,10 @@ const ImageDownloader = () => {
 	return (
 		<div className="mb-10">
 			<button
-				className="bg-sky-100 hover:bg-secondary-50 p-2 rounded-3xl"
+				className="bg-sky-100 hover:bg-secondary-50 p-2 rounded-3xl text-3xl text-blue-400"
 				onClick={downloadImage}>
 				<IoGiftOutline className="inline text-5xl text-blue-400" />
+				Lluvia de sobres
 			</button>
 		</div>
 	);

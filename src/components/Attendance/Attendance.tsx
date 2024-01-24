@@ -32,7 +32,7 @@ function Attendance() {
 			</h3>
 			<Image
 				src={"/assets/frame2.jpg"}
-				alt={"Frame 1"}
+				alt={"Frame 2"}
 				width={1200}
 				height={1200}
 				className="w-auto h-auto mb-10 rounded-2xl"

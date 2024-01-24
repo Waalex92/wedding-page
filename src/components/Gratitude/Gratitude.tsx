@@ -13,9 +13,6 @@ export function Gratitude() {
 				priority
 			/>
 			<div className="max-w-3xl text-center items-center justify-center text-blue-300 mb-10">
-				<p className="mb-10 md:mt-8 text-4xl text-blue-300">
-					Con la bendición de Dios y de nuestros Padres
-				</p>
 				<p className="mb-10 md:mt-8 text-5xl font-semibold text-blue-900">
 					Padres de la Novia
 				</p>

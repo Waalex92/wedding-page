@@ -13,8 +13,8 @@ function WishBox() {
 			</p>
 			<ContactForm />
 			<Image
-				src={"/assets/wish.jpg"}
-				alt={"Frame 1"}
+				src={"/assets/wish1.jpeg"}
+				alt={"wish"}
 				width={1200}
 				height={1200}
 				className="w-auto h-auto rounded-2xl mb-10"

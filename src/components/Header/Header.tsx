@@ -13,7 +13,9 @@ export function Header() {
 				priority
 			/>
 			<div className="max-w-3xl text-center items-center">
-				<h1 className="mb-10 text-5xl text-blue-300">Nuestra Boda</h1>
+				<h1 className="mb-10 text-5xl text-blue-300">
+					Nuestra Boda Civil
+				</h1>
 				<h2 className="mb-10 text-8xl font-semibold text-blue-900">
 					Karen & Eberth
 				</h2>
