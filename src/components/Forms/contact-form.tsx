@@ -1,13 +1,11 @@
 "use client";
 
 import { useForm, SubmitHandler } from "react-hook-form";
-
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-
 import { ContactFormSchema } from "@/lib/schema";
-import { sendEmail } from "../../app/api/route";
 import { toast } from "sonner";
+import { sendEmail } from "@/app/api/send/route";
 
 export type ContactFormInputs = z.infer<typeof ContactFormSchema>;
 
