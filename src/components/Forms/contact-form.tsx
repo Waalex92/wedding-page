@@ -6,7 +6,7 @@ import { z } from "zod";
 import { ContactFormSchema } from "@/lib/schema";
 
 import { toast } from "sonner";
-import { sendEmail } from "../../../pages/api/send/route";
+import { POST } from "@/api/send/route";
 
 export type ContactFormInputs = z.infer<typeof ContactFormSchema>;
 
@@ -21,7 +21,7 @@ export default function ContactForm() {
 	});
 
 	const processForm: SubmitHandler<ContactFormInputs> = async (data) => {
-		const result = await sendEmail(data);
+		const result = await POST(data);
 
 		if (result?.success) {
 			console.log({ data: result.data });
