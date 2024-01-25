@@ -1,6 +1,5 @@
 import React from "react";
 import WeedingDay from "../WeedingDay/WeedingDay";
-import CountDown from "../CountDown/CountDown";
 
 function GetMarry() {
 	return (
