@@ -6,7 +6,7 @@ import { z } from "zod";
 import { ContactFormSchema } from "@/lib/schema";
 
 import { toast } from "sonner";
-import { sendEmail } from "@/app/api/send/route";
+import { sendEmail } from "../../../pages/api/send/route";
 
 export type ContactFormInputs = z.infer<typeof ContactFormSchema>;
 
