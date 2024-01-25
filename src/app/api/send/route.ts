@@ -1,4 +1,3 @@
-
 import { z } from 'zod';
 import { Resend } from 'resend';
 import { ContactFormSchema } from '@/lib/schema';
@@ -18,7 +17,21 @@ export async function POST(request) {
             text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`,
             react: ContactFormEmail({ name, email, message }),
         });
+
+        // Aquí deberías devolver una respuesta para la solicitud POST
+        return new Response(JSON.stringify({ success: true, data }), {
+            status: 200,
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        });
     } catch (error) {
-        return { success: false, error };
+        // Aquí también deberías devolver una respuesta para la solicitud POST
+        return new Response(JSON.stringify({ success: false, error }), {
+            status: 500,
+            headers: {
+                'Content-Type': 'application/json',
+            },
+        });
     }
 }
