@@ -1,5 +1,4 @@
 import React from "react";
-import ContactForm from "../Forms/contact-form";
 import Image from "next/image";
 
 function WishBox() {
